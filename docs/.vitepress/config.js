@@ -1,55 +1,55 @@
 module.exports = {
-  lang: 'en-US',
-  title: 'VitePress',
+  lang: 'zh-CN',
+  title: '付海亮的个人博客',
   description: 'Vite & Vue powered static site generator.',
-
+  base: '/blog/',
   themeConfig: {
-    repo: 'vuejs/vitepress',
+    // repo: 'vuejs/vitepress',
     docsDir: 'docs',
 
-    editLinks: true,
-    editLinkText: 'Edit this page on GitHub',
-    lastUpdated: 'Last Updated',
+    // editLinks: true,
+    // editLinkText: 'Edit this page on GitHub',
+    lastUpdated: '最近更新时间',
 
-    algolia: {
-      apiKey: 'c57105e511faa5558547599f120ceeba',
-      indexName: 'vitepress'
-    },
+    // algolia: {
+    //   apiKey: 'c57105e511faa5558547599f120ceeba',
+    //   indexName: 'vitepress'
+    // },
 
-    carbonAds: {
-      carbon: 'CEBDT27Y',
-      custom: 'CKYD62QM',
-      placement: 'vuejsorg'
-    },
+    // carbonAds: {
+    //   carbon: 'CEBDT27Y',
+    //   custom: 'CKYD62QM',
+    //   placement: 'vuejsorg'
+    // },
 
     nav: [
-      { text: 'Guide', link: '/', activeMatch: '^/$|^/guide/' },
+      { text: '面试整理', link: '/', activeMatch: '^/$|^/interview/' },
       {
-        text: 'Config Reference',
-        link: '/config/basics',
-        activeMatch: '^/config/'
+        text: '算法学习',
+        link: '/algorithm/basics',
+        activeMatch: '^/algorithm/'
       },
       {
-        text: 'Release Notes',
-        link: 'https://github.com/vuejs/vitepress/releases'
+        text: 'GitHub',
+        link: 'https://github.com/Hooole/blog'
       }
     ],
 
     sidebar: {
-      '/guide/': getGuideSidebar(),
-      '/config/': getConfigSidebar(),
-      '/': getGuideSidebar()
+      '/interview/': getInterviewSidebar(),
+      '/algorithm/': getAlgorithmSidebar(),
+      '/': getInterviewSidebar()
     }
   }
 }
 
-function getGuideSidebar() {
+function getInterviewSidebar() {
   return [
     {
-      text: 'Introduction',
+      text: '面试整理',
       children: [
-        { text: 'What is VitePress?', link: '/' },
-        { text: 'Getting Started', link: '/guide/getting-started' },
+        { text: '解释一下原型链', link: '/' },
+        { text: 'instanceof原理', link: '/interview/instanceof' },
         { text: 'Configuration', link: '/guide/configuration' },
         { text: 'Asset Handling', link: '/guide/assets' },
         { text: 'Markdown Extensions', link: '/guide/markdown' },
@@ -58,7 +58,7 @@ function getGuideSidebar() {
       ]
     },
     {
-      text: 'Advanced',
+      text: '测试',
       children: [
         { text: 'Frontmatter', link: '/guide/frontmatter' },
         { text: 'Global Computed', link: '/guide/global-computed' },
@@ -73,11 +73,11 @@ function getGuideSidebar() {
   ]
 }
 
-function getConfigSidebar() {
+function getAlgorithmSidebar() {
   return [
     {
-      text: 'App Config',
-      children: [{ text: 'Basics', link: '/config/basics' }]
+      text: '栈',
+      children: [{ text: 'Basics', link: '/algorithm/basics' }]
     },
     {
       text: 'Theme Config',
