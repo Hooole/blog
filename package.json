@@ -9,7 +9,7 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "deploy-gh": "GH=1 yarn docs:build && bash scripts/deploy-gh.sh",
+    "deploy-gh": "yarn docs:build && bash scripts/deploy-gh.sh",
     "docs:serve": "vitepress serve docs"
   }
 }

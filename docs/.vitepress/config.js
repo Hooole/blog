@@ -50,7 +50,7 @@ function getInterviewSidebar() {
       children: [
         { text: '解释一下原型链', link: '/' },
         { text: 'instanceof原理', link: '/interview/instanceof' },
-        { text: 'Configuration', link: '/guide/configuration' },
+        { text: '如何实现一个深拷贝', link: '/interview/copy' },
         { text: 'Asset Handling', link: '/guide/assets' },
         { text: 'Markdown Extensions', link: '/guide/markdown' },
         { text: 'Using Vue in Markdown', link: '/guide/using-vue' },
