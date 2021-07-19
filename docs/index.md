@@ -36,6 +36,6 @@
   console.log(person1.name) // Jack
 ```
 ### 原型链
- <img :src="$withBase('/images/prototype.png')" alt="foo" />
+ ![原型链](./images/prototype.png)
 
   **图中由相互关联的原型组成的链状结构就成为原型链（蓝色部分）**
