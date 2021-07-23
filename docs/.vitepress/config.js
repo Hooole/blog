@@ -52,10 +52,7 @@ function getInterviewSidebar() {
         { text: 'instanceof原理', link: '/interview/instanceof' },
         { text: '如何实现一个深拷贝', link: '/interview/copy' },
         { text: '实现curry(1)(2)(3)', link: '/interview/curry' },
-        // { text: 'Asset Handling', link: '/guide/assets' },
-        // { text: 'Markdown Extensions', link: '/guide/markdown' },
-        // { text: 'Using Vue in Markdown', link: '/guide/using-vue' },
-        // { text: 'Deploying', link: '/guide/deploy' }
+        { text: '手写Promise', link: '/interview/promise' }
       ]
     }
     // {
