@@ -52,7 +52,8 @@ function getInterviewSidebar() {
         { text: 'instanceof原理', link: '/interview/instanceof' },
         { text: '如何实现一个深拷贝', link: '/interview/copy' },
         { text: '实现curry(1)(2)(3)', link: '/interview/curry' },
-        { text: '手写Promise', link: '/interview/promise' }
+        { text: '手写Promise', link: '/interview/promise' },
+        { text: '排序', link: '/interview/promise' }
       ]
     }
     // {
