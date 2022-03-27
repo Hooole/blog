@@ -23,7 +23,7 @@ module.exports = {
     // },
 
     nav: [
-      { text: '面试整理', link: '/', activeMatch: '^/$|^/interview/' },
+      { text: '学习笔记', link: '/', activeMatch: '^/$|^/interview/' },
       {
         text: '算法学习',
         link: '/algorithm/basics',
@@ -46,14 +46,17 @@ module.exports = {
 function getInterviewSidebar() {
   return [
     {
-      text: '面试整理',
+      text: '学习笔记',
       children: [
         { text: '解释一下原型链', link: '/' },
         { text: 'instanceof原理', link: '/interview/instanceof' },
         { text: '如何实现一个深拷贝', link: '/interview/copy' },
         { text: '实现curry(1)(2)(3)', link: '/interview/curry' },
         { text: '手写Promise', link: '/interview/promise' },
-        { text: '排序', link: '/interview/promise' }
+        { text: '排序', link: '/interview/sort' },
+        { text: 'ESLint', link: '/interview/ESLint' },
+        { text: 'rollup', link: '/interview/rollup' },
+        { text: 'Babel', link: '/interview/Babel' }
       ]
     }
     // {
