@@ -5,10 +5,8 @@
 Babel 是一个工具链，主要用于将采用 ECMAScript 2015+ 语法编写的代码转换为向后兼容的 JavaScript 语法，以便能够运行在当前和旧版本的浏览器或其他环境中。下面列出的是 Babel 能为你做的事
 
 * 语法转换
-* 通过 Polyfill 方式在目标环境中添加缺失的特
+* 通过 Polyfill 方式在目标环境中添加缺失的特性
 * 源码转换
-
-<!-- 那么Babel编译到底有什么魔法呢？它的核心原理是使用AST对源码进行分析并转为目标代码(后续添加) -->
 
 ### const、let编译分析
 
@@ -359,9 +357,7 @@ function transformer(ast) {
   traverser(ast, {
     // 处理变量声明
     VariableDeclaration: {
-      // We'll visit them on enter.
       enter(node, parent) {
-        console.log(ast._context)
         let literalDeclaration = {
           type: node.type,
           kind: 'var',
@@ -399,7 +395,6 @@ function transformer(ast) {
 
 ```javascript
 function codeGenerator(node) {
-  // We'll break things down by the `type` of the `node`.
   switch (node.type) {
 
     // 如果是'Program'节点，那么则会遍历它的body节点，并且递归的对这些节点再次调用codeGenerator，再把结果打印进入新的一行中
