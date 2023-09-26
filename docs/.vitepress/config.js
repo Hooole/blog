@@ -25,9 +25,9 @@ module.exports = {
     nav: [
       { text: '学习笔记', link: '/', activeMatch: '^/$|^/interview/' },
       {
-        text: '算法学习',
-        link: '/algorithm/basics',
-        activeMatch: '^/algorithm/'
+        text: 'type-challenges',
+        link: '/typeChallenges/pick',
+        activeMatch: '^/typeChallenges/'
       },
       {
         text: 'GitHub',
@@ -37,7 +37,7 @@ module.exports = {
 
     sidebar: {
       '/interview/': getInterviewSidebar(),
-      '/algorithm/': getAlgorithmSidebar(),
+      '/typeChallenges/': getAlgorithmSidebar(),
       '/': getInterviewSidebar()
     }
   }
@@ -78,8 +78,8 @@ function getInterviewSidebar() {
 function getAlgorithmSidebar() {
   return [
     {
-      text: '栈',
-      children: [{ text: 'Basics', link: '/algorithm/basics' }]
+      text: '实现Pick',
+      children: [{ text: 'Pick', link: '/typeChallenges/pick' }]
     },
     {
       text: 'Theme Config',
