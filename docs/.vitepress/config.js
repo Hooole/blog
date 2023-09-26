@@ -59,30 +59,21 @@ function getInterviewSidebar() {
         { text: 'Babel', link: '/interview/Babel' }
       ]
     }
-    // {
-    //   text: '测试',
-    //   children: [
-    //     { text: 'Frontmatter', link: '/guide/frontmatter' },
-    //     { text: 'Global Computed', link: '/guide/global-computed' },
-    //     { text: 'Global Component', link: '/guide/global-component' },
-    //     { text: 'Customization', link: '/guide/customization' },
-    //     {
-    //       text: 'Differences from Vuepress',
-    //       link: '/guide/differences-from-vuepress'
-    //     }
-    //   ]
-    // }
   ]
 }
 
 function getAlgorithmSidebar() {
   return [
     {
-      text: '实现Pick',
-      children: [{ text: 'Pick', link: '/typeChallenges/pick' }]
+      text: '简单',
+      children: [
+        { text: '实现Pick', link: '/typeChallenges/pick' },
+        { text: '第一个元素', link: '/typeChallenges/first' }
+      ],
     },
+
     {
-      text: 'Theme Config',
+      text: '中等',
       children: [
         { text: 'Homepage', link: '/config/homepage' },
         { text: 'Algolia Search', link: '/config/algolia-search' },
