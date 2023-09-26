@@ -68,7 +68,8 @@ function getAlgorithmSidebar() {
       text: '简单',
       children: [
         { text: '实现Pick', link: '/typeChallenges/pick' },
-        { text: '第一个元素', link: '/typeChallenges/first' }
+        { text: '第一个元素', link: '/typeChallenges/first' },
+        { text: '获取元组长度', link: '/typeChallenges/length' }
       ],
     },
 
