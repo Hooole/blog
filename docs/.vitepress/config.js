@@ -73,7 +73,8 @@ function getAlgorithmSidebar() {
         { text: '实现Exclude', link: '/typeChallenges/exclude' },
         { text: 'Awaited', link: '/typeChallenges/awaited' },
         { text: 'IF', link: '/typeChallenges/if' },
-        { text: 'Concat', link: '/typeChallenges/concat' }
+        { text: 'Concat', link: '/typeChallenges/concat' },
+        { text: 'Includes', link: '/typeChallenges/includes' }
       ],
     },
     {
