@@ -70,7 +70,8 @@ function getAlgorithmSidebar() {
         { text: '实现Pick', link: '/typeChallenges/pick' },
         { text: '第一个元素', link: '/typeChallenges/first' },
         { text: '获取元组长度', link: '/typeChallenges/length' },
-        { text: '实现Exclude', link: '/typeChallenges/exclude' }
+        { text: '实现Exclude', link: '/typeChallenges/exclude' },
+        { text: 'Awaited', link: '/typeChallenges/awaited' }
       ],
     },
 
