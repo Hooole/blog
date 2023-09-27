@@ -72,10 +72,10 @@ function getAlgorithmSidebar() {
         { text: '获取元组长度', link: '/typeChallenges/length' },
         { text: '实现Exclude', link: '/typeChallenges/exclude' },
         { text: 'Awaited', link: '/typeChallenges/awaited' },
-        { text: 'IF', link: '/typeChallenges/if' }
+        { text: 'IF', link: '/typeChallenges/if' },
+        { text: 'Concat', link: '/typeChallenges/concat' }
       ],
     },
-
     {
       text: '中等',
       children: [
