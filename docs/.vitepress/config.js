@@ -71,7 +71,8 @@ function getAlgorithmSidebar() {
         { text: '第一个元素', link: '/typeChallenges/first' },
         { text: '获取元组长度', link: '/typeChallenges/length' },
         { text: '实现Exclude', link: '/typeChallenges/exclude' },
-        { text: 'Awaited', link: '/typeChallenges/awaited' }
+        { text: 'Awaited', link: '/typeChallenges/awaited' },
+        { text: 'IF', link: '/typeChallenges/if' }
       ],
     },
 
