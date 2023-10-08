@@ -1,6 +1,6 @@
 module.exports = {
   lang: 'zh-CN',
-  title: '付海亮的个人博客',
+  title: 'Hoole的博客',
   description: 'Vite & Vue powered static site generator.',
   base: '/blog/',
   themeConfig: {
@@ -74,7 +74,9 @@ function getAlgorithmSidebar() {
         { text: 'Awaited', link: '/typeChallenges/awaited' },
         { text: 'IF', link: '/typeChallenges/if' },
         { text: 'Concat', link: '/typeChallenges/concat' },
-        { text: 'Includes', link: '/typeChallenges/includes' }
+        { text: 'Includes', link: '/typeChallenges/includes' },
+        { text: 'Push', link: '/typeChallenges/push' },
+        { text: 'Unshift', link: '/typeChallenges/unshift' }
       ],
     },
     {
