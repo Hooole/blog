@@ -77,7 +77,9 @@ function getAlgorithmSidebar() {
         { text: 'Includes', link: '/typeChallenges/includes' },
         { text: 'Push', link: '/typeChallenges/push' },
         { text: 'Unshift', link: '/typeChallenges/unshift' },
-        { text: 'Parameters', link: '/typeChallenges/parameters' }
+        { text: 'Parameters', link: '/typeChallenges/parameters' },
+        { text: 'ReturnType', link: '/typeChallenges/returnType' },
+        { text: 'Omit', link: '/typeChallenges/omit' }
       ],
     },
     {
