@@ -77,17 +77,15 @@ function getAlgorithmSidebar() {
         { text: 'Includes', link: '/typeChallenges/includes' },
         { text: 'Push', link: '/typeChallenges/push' },
         { text: 'Unshift', link: '/typeChallenges/unshift' },
-        { text: 'Parameters', link: '/typeChallenges/parameters' },
-        { text: 'ReturnType', link: '/typeChallenges/returnType' },
-        { text: 'Omit', link: '/typeChallenges/omit' }
+        { text: 'Parameters', link: '/typeChallenges/parameters' }
       ],
     },
     {
       text: '中等',
       children: [
-        { text: 'Homepage', link: '/config/homepage' },
-        { text: 'Algolia Search', link: '/config/algolia-search' },
-        { text: 'Carbon Ads', link: '/config/carbon-ads' }
+        { text: 'ReturnType', link: '/typeChallenges/returnType' },
+        { text: 'Omit', link: '/typeChallenges/omit' },
+        { text: 'readonly', link: '/typeChallenges/readonly2' }
       ]
     }
   ]
