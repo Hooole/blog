@@ -85,7 +85,9 @@ function getAlgorithmSidebar() {
       children: [
         { text: 'ReturnType', link: '/typeChallenges/returnType' },
         { text: 'Omit', link: '/typeChallenges/omit' },
-        { text: 'readonly', link: '/typeChallenges/readonly2' }
+        { text: 'readonly(按需)', link: '/typeChallenges/readonly2' },
+        { text: 'deepReadonly(深度)', link: '/typeChallenges/deepReadonly' },
+        { text: 'tupleToUnion(元组转联合类型)', link: '/typeChallenges/tupleToUnion' }
       ]
     }
   ]
