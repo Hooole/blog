@@ -1,0 +1,1 @@
+import{o as n,c as s,d as a}from"./app.437d6b62.js";const p='{"title":"Object Map","description":"","frontmatter":{},"headers":[{"level":2,"title":"Object Map","slug":"object-map"}],"relativePath":"interview/map.md","lastUpdated":1720593813844}',t={},o=a('',3);t.render=function(a,p,t,e,c,u){return n(),s("div",null,[o])};export default t;export{p as __pageData};

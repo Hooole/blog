@@ -1,0 +1,1 @@
+import{o as s,c as a,d as n}from"./app.437d6b62.js";const t='{"title":"Push","description":"","frontmatter":{},"headers":[{"level":3,"title":"Push","slug":"push"}],"relativePath":"typeChallenges/push.md","lastUpdated":1696745343990}',e={},p=n('',5);e.render=function(n,t,e,o,c,l){return s(),a("div",null,[p])};export default e;export{t as __pageData};

@@ -1,0 +1,1 @@
+import{o as a,c as n,d as s}from"./app.437d6b62.js";const t='{"title":"Concat","description":"","frontmatter":{},"headers":[{"level":3,"title":"Concat","slug":"concat"}],"relativePath":"typeChallenges/concat.md","lastUpdated":1695805337417}',e={},o=s('',6);e.render=function(s,t,e,p,c,l){return a(),n("div",null,[o])};export default e;export{t as __pageData};

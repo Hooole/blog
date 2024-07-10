@@ -1,0 +1,1 @@
+import{o as s,c as n,d as a}from"./app.437d6b62.js";const p='{"title":"元组转联合类型","description":"","frontmatter":{},"headers":[{"level":3,"title":"元组转联合类型","slug":"元组转联合类型"}],"relativePath":"typeChallenges/tupleToUnion.md","lastUpdated":1698053754943}',e={},t=a('',7);e.render=function(a,p,e,o,c,l){return s(),n("div",null,[t])};export default e;export{p as __pageData};

@@ -1,0 +1,1 @@
+import{o as s,c as n,d as a}from"./app.437d6b62.js";const t='{"title":"获取元组长度","description":"","frontmatter":{},"headers":[{"level":3,"title":"获取元组长度","slug":"获取元组长度"}],"relativePath":"typeChallenges/length.md","lastUpdated":1695794957667}',p={},e=a('',4);p.render=function(a,t,p,o,c,l){return s(),n("div",null,[e])};export default p;export{t as __pageData};

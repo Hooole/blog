@@ -1,0 +1,1 @@
+import{o as n,c as a,d as s}from"./app.437d6b62.js";const o='{"title":"intanceof","description":"","frontmatter":{},"headers":[{"level":2,"title":"intanceof","slug":"intanceof"}],"relativePath":"interview/instanceof.md","lastUpdated":1648450937134}',t={},p=s('',3);t.render=function(s,o,t,e,c,r){return n(),a("div",null,[p])};export default t;export{o as __pageData};

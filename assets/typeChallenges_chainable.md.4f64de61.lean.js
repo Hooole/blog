@@ -1,0 +1,1 @@
+import{o as n,c as s,d as a}from"./app.437d6b62.js";const t='{"title":"可串联构造器","description":"","frontmatter":{},"headers":[{"level":3,"title":"可串联构造器","slug":"可串联构造器"}],"relativePath":"typeChallenges/chainable.md","lastUpdated":1698819714843}',p={},o=a('',3);p.render=function(a,t,p,e,c,l){return n(),s("div",null,[o])};export default p;export{t as __pageData};

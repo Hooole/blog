@@ -1,0 +1,1 @@
+import{o as s,c as n,d as a}from"./app.437d6b62.js";const t='{"title":"Includes","description":"","frontmatter":{},"headers":[{"level":3,"title":"Includes","slug":"includes"}],"relativePath":"typeChallenges/includes.md","lastUpdated":1696660024532}',p={},e=a('',6);p.render=function(a,t,p,o,c,l){return s(),n("div",null,[e])};export default p;export{t as __pageData};

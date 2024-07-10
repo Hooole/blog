@@ -1,0 +1,1 @@
+import{o as n,c as s,d as a}from"./app.437d6b62.js";const o='{"title":"按需Readonly","description":"","frontmatter":{},"headers":[{"level":3,"title":"按需Readonly","slug":"按需readonly"}],"relativePath":"typeChallenges/readonly2.md","lastUpdated":1697186139655}',t={},p=a('',4);t.render=function(a,o,t,e,c,l){return n(),s("div",null,[p])};export default t;export{o as __pageData};

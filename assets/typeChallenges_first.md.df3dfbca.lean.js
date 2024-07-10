@@ -1,0 +1,1 @@
+import{o as s,c as n,d as a}from"./app.437d6b62.js";const t='{"title":"第一个元素","description":"","frontmatter":{},"headers":[{"level":3,"title":"第一个元素","slug":"第一个元素"}],"relativePath":"typeChallenges/first.md","lastUpdated":1695720802255}',p={},e=a('',4);p.render=function(a,t,p,o,c,l){return s(),n("div",null,[e])};export default p;export{t as __pageData};

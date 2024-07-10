@@ -1,0 +1,1 @@
+import{o as n,c as s,d as a}from"./app.437d6b62.js";const t='{"title":"Unshift","description":"","frontmatter":{},"headers":[{"level":3,"title":"Unshift","slug":"unshift"}],"relativePath":"typeChallenges/unshift.md","lastUpdated":1696995742608}',e={},p=a('',5);e.render=function(a,t,e,o,c,l){return n(),s("div",null,[p])};export default e;export{t as __pageData};
