@@ -56,7 +56,8 @@ function getInterviewSidebar() {
         { text: '排序', link: '/interview/sort' },
         { text: 'ESLint', link: '/interview/ESLint' },
         { text: 'rollup', link: '/interview/rollup' },
-        { text: 'Babel', link: '/interview/Babel' }
+        { text: 'Babel', link: '/interview/Babel' },
+        { text: '实现Object.prototype.map', link: '/interview/map' }
       ]
     }
   ]
@@ -87,7 +88,8 @@ function getAlgorithmSidebar() {
         { text: 'Omit', link: '/typeChallenges/omit' },
         { text: 'readonly(按需)', link: '/typeChallenges/readonly2' },
         { text: 'deepReadonly(深度)', link: '/typeChallenges/deepReadonly' },
-        { text: 'tupleToUnion(元组转联合类型)', link: '/typeChallenges/tupleToUnion' }
+        { text: 'tupleToUnion(元组转联合类型)', link: '/typeChallenges/tupleToUnion' },
+        { text: 'chainable(可串联构造器)', link: '/typeChallenges/chainable' },
       ]
     }
   ]
